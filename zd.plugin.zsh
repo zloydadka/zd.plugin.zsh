@@ -26,5 +26,8 @@ alias ls="ls --color"
 alias la="ls -a --color"
 alias .="ls -lah --color"
 
+
+alias open="xdg-open"
+
 # add plugin's bin directory to path
 export PATH="$(dirname $0)/bin:$PATH"
